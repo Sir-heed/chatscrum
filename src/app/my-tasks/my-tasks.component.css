@@ -1,0 +1,328 @@
+/* HEADER */
+.topnav {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    height: 48px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #26A69A;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.item1 img {
+    position: absolute;
+    width: 116px;
+    height: 26px;
+    /* left: 50px; */
+    left: 3.47%;
+    top: 11px;
+}
+.item2 {
+    position: absolute;
+    /* width: 166px; */
+    width: 11.53%;
+    height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+.item2#mytasks {
+    /* left: 232px; */
+    left: 16.11%;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+#top {
+    height: 5.53px;
+    background: #4DFFD4;
+}
+span#task1 {
+    position: absolute;
+    top: 17px;
+    left: 54px;
+    color: #4DFFD4;
+    /* text-align: center; */
+}
+.item2#teamtasks {
+    /* left: 398px; */
+    left: 27.64%;
+    background: rgba(255, 255, 255, 0.1);
+}
+span#task2 {
+    position: absolute;
+    top: 17px;
+    left: 54px;
+    color: #FFFFFF;
+}
+div span#mytasks {
+    font-size: 14px;
+    line-height: 16px;
+    color: #4DFFD4;
+}
+div span#teamtasks {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.item3 {
+    position: absolute;
+    /* width: 114px; */
+    width: 7.92%;
+    /* left: 696px; */
+    left: 48.33%;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item4 {
+    position: absolute;
+    /* width: 114px; */
+    width: 7.92%;
+    /* left: 812px; */
+    left: 56.39%;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item5 {
+    position: absolute;
+    /* width: 114px; */
+    width: 7.92%;
+    /* left: 928px; */
+    left: 64.44%;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item5 img {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 48px;
+    top: 10px;
+}
+.item6 {
+    position: absolute;
+    /* width: 113px; */
+    width: 7.85%;
+    /* left: 1044px; */
+    left: 72.5%;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item7 {
+    position: absolute;
+    /* width: 179px; */
+    width: 7.85%;
+    /* left: 1159px; */
+    left: 80.49%;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item8 {
+    position: absolute;
+    /* width: 100px; */
+    width: 6.94%;
+    /* left: 1340px; */
+    left: 93.06%;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#span1 {
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    top: 8px;
+    left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+#span2 {
+    position: absolute;
+    width: 104px;
+    height: 15px;
+    left: 10px;
+    top: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.item4 #span1 {
+    width: 49px;
+}
+.item7 #span1 {
+    left: 48px;
+    width: 117px;
+    height: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.item7 #span2 {
+    left: 48px;
+    width: 117px;
+    height: 15px;
+}
+.item8 {
+    display: flex;
+    align-items: center;
+}
+.item8 #img1 {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+.item8 #img2 {
+    margin-left: 21.18px;
+    width: 20px;
+    height: 20px;
+}
+
+/* BODY */
+/* CHAT */
+.chatbox {
+    float: right;
+    /* margin-top: 38px; */
+    margin-top: 18px;
+    width: 24.1%;
+    text-align: center;
+    height: 852px;
+    /* height: 100%; */
+    background: #343434;
+}
+.chatbox p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.chats {
+    /* height: 802px; */
+    height: 94.13%;
+    overflow-y: auto;
+}
+.chat {
+    min-height: 107px;
+    margin-left: 2.88%;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 2.88%;
+    text-align: left;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.chat img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.chat #name {
+    margin-left: 41px;
+    margin-top: -20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* color: ; */
+}
+.chat #text {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.chat #time {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.2);
+}
+input[type=text] {
+    /* position: fixed; */
+    width: 100%;
+    height: 50px;
+    left: 76.40%;
+    top: 850px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* GOALS */
+.goals {
+    /* width: 994px; */
+    width: 69.03%;
+    margin-top: 30px;
+    margin-left: 3.47%;
+    overflow-y: auto;
+    /* margin-left: 50px; */
+}
+.goals div {
+    /* width: 232px; */
+    width: 23.34%;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 10px solid #E5E5E5;
+    border-radius: 10px;
+    text-align: center;
+    color: #333333;
+    /* overflow-y: auto; */
+}
+.week {
+    float: left;
+    height: 94.13%;
+    /* overflow-y: auto; */
+}
+.today {
+    float: left;
+    /* height: 94.13%; */
+    height: 810px;
+    /* overflow-y: auto; */
+    margin-left: 21px;
+}
+.verify {
+    float: left;
+    height: 94.13%;
+    /* overflow-y: auto; */
+    margin-left: 21px;
+}
+.done {
+    float: left;
+    height: 94.13%;
+    /* overflow-y: auto; */
+    margin-left: 21px;
+}
+div .task {
+    margin-left: 4.31%;
+    width: 91.4%;
+    text-align: justify;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 3.33%;
+}
+#task1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 2.01%;
+    margin-right: 2.01%;
+    line-height: 16px;
+}
+#numb {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 2.01%;
+}
